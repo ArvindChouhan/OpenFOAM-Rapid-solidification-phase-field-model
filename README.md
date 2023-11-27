@@ -2,7 +2,7 @@
 
 This is an implementation of a rapid solidification model for solidification of dilute binary alloy in OpenFOAM_v_2006.
 Reference paper: Arvind Chouhan, Lutz Mädler, Nils Ellendt, Modeling of rapid solidification in laser Powder Bed Fusion process, 2023.
-This work can be referenced with the DOI: 
+This work can be referenced with the DOI: 10.5281/zenodo.10211418
 
 # Solver Directory: 
 ![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/15e70864-6bc5-4f7f-b7b1-a715e7f3bf55)
