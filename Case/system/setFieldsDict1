@@ -1,0 +1,201 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      setFieldsDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+defaultFieldValues
+(
+    volScalarFieldValue U -0.0876
+    volScalarFieldValue P -1
+);
+
+regions
+(
+   
+   cylinderToCell
+    {
+        p1 (0e-6 0 -1);
+        p2 (0e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (0.4e-6 0 -1);
+        p2 (0.4e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (0.8e-6 0 -1);
+        p2 (0.8e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (1.2e-6 0 -1);
+        p2 (1.2e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (1.6e-6 0 -1);
+        p2 (1.6e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (2e-6 0 -1);
+        p2 (2e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (2.4e-6 0 -1);
+        p2 (2.4e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (2.8e-6 0 -1);
+        p2 (2.8e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (3.2e-6 0 -1);
+        p2 (3.2e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (3.6e-6 0 -1);
+        p2 (3.6e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (4e-6 0 -1);
+        p2 (4e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+    cylinderToCell
+    {
+        p1 (4.4e-6 0 -1);
+        p2 (4.4e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+   
+    
+    cylinderToCell
+    {
+        p1 (4.8e-6 0 -1);
+        p2 (4.8e-6 0 1);
+        radius 0.1e-6; 
+        fieldValues
+        (
+            volScalarFieldValue P 1        
+        );
+    }
+    
+    
+    
+);
+
+
+// ************************************************************************* //

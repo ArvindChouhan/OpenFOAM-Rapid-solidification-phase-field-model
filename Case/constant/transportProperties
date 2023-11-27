@@ -1,0 +1,38 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2006                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{                                                
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+     
+gtc                               gtc [0 1 0 1 0 0 0]           0.241e-6;  
+slope                           slope [0 0 0 1 0 0 0]           2.72;
+k                                   k [0 0 0 0 0 0 0]           0.254;     // Check                     
+dx                                 dx [0 1 0 0 0 0 0]           0.008e-6;
+Ds                                 Ds [0 2 -1 0 0 0 0]          0;          
+Dl                                 Dl [0 2 -1 0 0 0 0]          4.4e-9;           
+epsilon                       epsilon [0 0 0 0 0 0 0]           0.018;
+epsilon_C                   epsilon_C [0 0 0 0 0 0 0]           0.018;
+epsilon_K                   epsilon_K [0 0 0 0 0 0 0]           0.12;         
+anisotropy                 anisotropy [0 0 0 0 0 0 0]           4;
+Theta0                         Theta0 [0 0 0 0 0 0 0]           0;
+b                                   b [0 0 0 0 0 0 0]           1e-6;
+c                                   c [0 -1 0 0 0 0 0]          1e-6;
+C0                                 C0 [0 0 0 0 0 0 0]           4.5;
+d0                                 d0 [0 1 0 0 0 0 0]           23.1e-9;
+beta0                           beta0 [0 -1 1 0 0 0 0]          1;
+Vp                                 Vp [0 1 0 0 0 0 0]           1;         // Check
+G                                   G [0 -1 0 1 0 0 0]          1e+6;      // Check
+AP                                 AP [0 0 0 0 0 0 0]           0.22;      
+alpha                           alpha [0 0 0 0 0 0 0]           0.03;
+// ************************************************************************* //
