@@ -23,8 +23,16 @@ Running the case file:
 4. Use "mpi" command for parallel processing.
 
 # Material properties:
-![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/759b7d28-fe5b-4ae6-97b4-0f06827b5353)
+Marerial properties can be edited using "transportProperties" file.
+![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/a429db07-d8ea-4839-afd6-1cdc0e7755a3)
 
+1. Change value of partition coefficient based on solidification speed (See reference paper).
+2. Value of "dx" need to be changed based on cell size. Also the value of Antitrapping parameter "AP" changes based on "dx" (See reference paper). 
+3. Grain orientation can be changed by changing the "Theta0" parameter.
+
+**************************************************************************************************************************************************
+
+If you have questions about the model or if you want to contribute, please do not hesitate to send me an Email!
 
 
 
