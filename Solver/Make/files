@@ -1,3 +1,0 @@
-OM.C
-
-EXE = $(FOAM_USER_APPBIN)/AlCu8
