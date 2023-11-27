@@ -14,8 +14,8 @@ This work can be referenced with the DOI:
 4. After calculating variables Phase field variable (Phi, PhaseEq.H) and dimensionless supersaturation (u, CEq.H) are solved.
 
 # Case Directory: 
+![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/3f776edb-ddfa-4e85-9ed6-b1deecdea8bf)
 
-![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/ae84d0cb-1082-4e22-90a2-cf3f919f770f)
 
 
     
