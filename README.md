@@ -1,1 +1,1 @@
-# Rapid-solidification-phase-field-model
+# OpenFoam: Rapid-solidification-phase-field-model
