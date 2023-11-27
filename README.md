@@ -5,10 +5,17 @@ Reference paper: Arvind Chouhan, Lutz Mädler, Nils Ellendt, Modeling of rapid s
 This work can be referenced with the DOI: 
 
 # Solver Directory: 
-
-![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/d119b460-adb8-43a8-a47f-342021d7dfdb)
-![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/945fcb8f-8578-417e-8faa-382176deabf2)
+![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/15e70864-6bc5-4f7f-b7b1-a715e7f3bf55)
 
 
 1. The solver can be compiled from the solver directory provided. This creates a solver with the name "AlCu8". The name of the solver can be changed accordingly by changing the name in the 'files' in the 'Make' directory.
+2. The required variables are initialized in createFields.H.
+3. At each time step the value of the variables is calculated in the Variables.H.
+4. After calculating variables Phase field variable (Phi, PhaseEq.H) and dimensionless supersaturation (u, CEq.H) are solved.
+
+# Case Directory: 
+
+![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/ae84d0cb-1082-4e22-90a2-cf3f919f770f)
+
+
     
