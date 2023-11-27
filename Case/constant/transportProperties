@@ -1,0 +1,38 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2006                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{                                                
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+     
+gtc                               gtc [0 1 0 1 0 0 0]           0.241e-6;   // Gibs Thompson coefficient       
+slope                           slope [0 0 0 1 0 0 0]           2.72;       // Liquidus slope must be positive
+k                                   k [0 0 0 0 0 0 0]           0.254;      // Value changes based on solidification rate                     
+dx                                 dx [0 1 0 0 0 0 0]           0.008e-6;   // depends on cell size
+Ds                                 Ds [0 2 -1 0 0 0 0]          0;          // Solid diffusivity
+Dl                                 Dl [0 2 -1 0 0 0 0]          4.4e-9;     // Liquid diffusivity      
+epsilon                       epsilon [0 0 0 0 0 0 0]           0.018;      // Anisotropy strength (see paper)
+epsilon_C                   epsilon_C [0 0 0 0 0 0 0]           0.018;      // Anisotropy strength (see paper)
+epsilon_K                   epsilon_K [0 0 0 0 0 0 0]           0.12;       // Anisotropy strength (see paper)  
+anisotropy                 anisotropy [0 0 0 0 0 0 0]           4;          // Four-fold anisotropy
+Theta0                         Theta0 [0 0 0 0 0 0 0]           0;          // Grain orientation angle
+b                                   b [0 0 0 0 0 0 0]           1e-6;       // A constant (to avoid division by zero)
+c                                   c [0 -1 0 0 0 0 0]          1e-6;       // A constant (to avoid division by zero) 
+C0                                 C0 [0 0 0 0 0 0 0]           4.5;        // Initial alloy composition
+d0                                 d0 [0 1 0 0 0 0 0]           23.1e-9;    // Capillary length (calculated value, see paper)
+beta0                           beta0 [0 -1 1 0 0 0 0]          1;          // Kinetic coefficient
+Vp                                 Vp [0 1 0 0 0 0 0]           1;          // Solidification rate
+G                                   G [0 -1 0 1 0 0 0]          1e+6;       // Temperature gradient
+AP                                 AP [0 0 0 0 0 0 0]           0.22;       // Antitrapping parameter
+alpha                           alpha [0 0 0 0 0 0 0]           0.03;       // Noise stength
+// ************************************************************************* //
