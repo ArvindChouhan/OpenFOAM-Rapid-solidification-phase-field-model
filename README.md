@@ -16,6 +16,17 @@ This work can be referenced with the DOI:
 # Case Directory: 
 ![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/3f776edb-ddfa-4e85-9ed6-b1deecdea8bf)
 
+Running the case file:
+1. Generate computational domain using blockMesh.The properties of computational domain can be changed using "blockMeshDict" file in "System" folder.
+2. Use "setFields" to initiate the intial solid layer. ("setFieldsDict" file in "System" folder)
+3. Use "decomposePar" to prepare for parallel processing. ("deComposeParDict" file in "System" folder)
+4. Use "mpi" command for parallel processing.
+
+# Material properties:
+![image](https://github.com/ArvindChouhan/OpenFOAM-Rapid-solidification-phase-field-model/assets/101119473/759b7d28-fe5b-4ae6-97b4-0f06827b5353)
+
+
+
 
 
     
